@@ -1,0 +1,112 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "健康管理"
+			}
+		},
+		{
+			"path" : "pages/ExerciseManagement/ExerciseManagement",
+			"style" : 
+			{
+				"navigationBarTitleText" : "运动管理"
+			}
+		},
+		{
+			"path" : "pages/WeightManagement/WeightManagement",
+			"style" : 
+			{
+				"navigationBarTitleText" : "体重管理"
+			}
+		},
+		{
+			"path" : "pages/userInfo/userInfo",
+			"style" : 
+			{
+				"navigationBarTitleText" : "个人中心"
+			}
+		},
+		{
+			"path" : "pages/FoodSearch/FoodSearch",
+			"style" : 
+			{
+				"navigationBarTitleText" : "选择食物"
+			}
+		},
+		{
+			"path" : "pages/DietRecordDetail/DietRecordDetail",
+			"style" : 
+			{
+				"navigationBarTitleText" : "饮食记录明细"
+			}
+		},
+		{
+			"path" : "pages/HealthProfile/HealthProfile",
+			"style" : 
+			{
+				"navigationBarTitleText" : "健康档案"
+			}
+		},
+		{
+			"path" : "pages/Recipes/Recipes",
+			"style" : 
+			{
+				"navigationBarTitleText" : "食谱推荐"
+			}
+		},
+		{
+			"path" : "pages/RecipeDetail/RecipeDetail",
+			"style" : 
+			{
+				"navigationBarTitleText" : "食谱详情"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "健康管理",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#F5296E",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tabbar/home-active.png",
+				"selectedIconPath": "static/tabbar/home-active.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/ExerciseManagement/ExerciseManagement",
+				"iconPath": "static/tabbar/exercise-active.png",
+				"selectedIconPath": "static/tabbar/exercise-active.png",
+				"text": "运动"
+			},
+			{
+				"pagePath": "pages/WeightManagement/WeightManagement",
+				"iconPath": "static/tabbar/weight-active.png",
+				"selectedIconPath": "static/tabbar/weight-active.png",
+				"text": "体重"
+			},
+			{
+				"pagePath": "pages/userInfo/userInfo",
+				"iconPath": "static/tabbar/user-active.png",
+				"selectedIconPath": "static/tabbar/user-active.png",
+				"text": "我的"
+			}
+		]
+	},
+	"uniIdRouter": {}
+}

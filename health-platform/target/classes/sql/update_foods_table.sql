@@ -1,0 +1,11 @@
+-- 更新foods表结构，确保所有字段都存在
+-- 检查并添加缺失的字段
+ALTER TABLE foods ADD COLUMN IF NOT EXISTS protein_g_per_100 DECIMAL(5,2) NULL COMMENT '每100g蛋白质含量(g)';
+ALTER TABLE foods ADD COLUMN IF NOT EXISTS fat_g_per_100 DECIMAL(5,2) NULL COMMENT '每100g脂肪含量(g)';
+ALTER TABLE foods ADD COLUMN IF NOT EXISTS carbs_g_per_100 DECIMAL(5,2) NULL COMMENT '每100g碳水化合物含量(g)';
+ALTER TABLE foods ADD COLUMN IF NOT EXISTS sodium_mg_per_100 DECIMAL(8,2) NULL COMMENT '每100g钠含量(mg)';
+ALTER TABLE foods ADD COLUMN IF NOT EXISTS enabled TINYINT(1) DEFAULT 1 COMMENT '是否启用：1-启用，0-禁用';
+
+-- 检查表结构
+DESCRIBE foods;
+

@@ -1,0 +1,41 @@
+server:
+  port: 8088
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/health?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=Asia/Shanghai
+    username: root
+    password: WhaleCrane@2020
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jackson:
+    serialization:
+      write-dates-as-timestamps: false
+    deserialization:
+      fail-on-unknown-properties: false
+    date-format: yyyy-MM-dd'T'HH:mm:ss.SSS'Z'
+    time-zone: UTC
+
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: true
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+springdoc:
+  api-docs:
+    enabled: true
+  swagger-ui:
+    enabled: true
+    path: /docs
+
+app:
+  jwt:
+    secret: WhaleCrane2020WhaleCrane2020WhaleCrane2020WhaleCrane2020WhaleCrane2020WhaleCrane2020WhaleCrane2020WhaleCrane2020WhaleWhaleCrane2020WhaleCrane2020WhaleCrane2020WhaleCrane2020WhaleCrane2020WhaleCrane2020WhaleCrane2020WhaleCrane2020WhaleCrane2020WhaleCrane2020WhaleCrane2020WhaleCrane2020WhaleCrane2020WhaleCrane2020Crane2020WhaleCrane2020WhaleCrane2020WhaleCrane2020WhaleCrane2020WhaleCrane2020
+    expireMinutes: 120
+
+# 微信小程序配置
+weixin:
+  app-id: wx5f1655379ab465ff
+  app-secret: a2b2c784c4ced41419103bbf6a0d17a7
+
+
+

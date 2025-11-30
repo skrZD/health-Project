@@ -1,0 +1,221 @@
+
+/* 定义颜色变量 */
+.data-v-97bb78b8:root {
+  --main-color: #4A89FF;
+  --text-color-primary: #333333;
+  --text-color-secondary: #666666;
+  --border-color: #ebebeb;
+  --box-shadow: 0px 2px 8px rgba(99, 99, 99, 0.1);
+  --card-background: #ffffff;
+}
+.exercisePage.data-v-97bb78b8 {
+	width: 100%;
+	min-height: 100vh;
+	background-color: #f2f3f5;
+	padding-bottom: 3vh;
+}
+.header_box.data-v-97bb78b8 {
+	width: 95%;
+	margin: 0 auto;
+	padding: 1em 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.page_title.data-v-97bb78b8 {
+	font-size: 24px;
+	font-weight: bold;
+	color: var(--text-color-primary);
+}
+.add_exercise_btn.data-v-97bb78b8 {
+	background-color: var(--main-color);
+	color: white;
+	padding: 0.5em 1em;
+	border-radius: 20px;
+	font-size: 14px;
+	min-width: 80px;
+	text-align: center;
+}
+.card_box.data-v-97bb78b8 {
+	width: 95%;
+	margin: 0 auto 15px;
+	background-color: var(--card-background);
+	border-radius: 12px;
+	box-shadow: var(--box-shadow);
+	padding: 20px;
+	box-sizing: border-box;
+}
+.summary_title.data-v-97bb78b8 {
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 1em;
+	color: var(--text-color-primary);
+}
+.summary_stats.data-v-97bb78b8 {
+	display: flex;
+	justify-content: space-around;
+	padding: 15px 0 0;
+}
+.stat_item.data-v-97bb78b8 {
+	text-align: center;
+}
+.stat_value.data-v-97bb78b8 {
+	font-size: 24px;
+	font-weight: bold;
+	color: var(--main-color);
+}
+.stat_label.data-v-97bb78b8 {
+	font-size: 12px;
+	color: var(--text-color-secondary);
+	margin-top: 0.5em;
+}
+.list_title.data-v-97bb78b8 {
+	font-size: 18px;
+	font-weight: bold;
+	padding: 0 0 15px;
+	color: var(--text-color-primary);
+	border-bottom: 1px solid var(--border-color);
+}
+.exercise_list.data-v-97bb78b8 {
+	padding-top: 15px;
+}
+.exercise_item.data-v-97bb78b8 {
+	display: flex;
+	align-items: center;
+	padding: 15px 0;
+	border-bottom: 1px solid var(--border-color);
+}
+.exercise_item.data-v-97bb78b8:last-child {
+	border-bottom: none;
+}
+.exercise_icon.data-v-97bb78b8 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f7f7f7;
+}
+.icon_emoji.data-v-97bb78b8 {
+    font-size: 22px;
+}
+.exercise_info.data-v-97bb78b8 {
+	flex: 1;
+}
+.exercise_name.data-v-97bb78b8 {
+	font-size: 16px;
+	font-weight: bold;
+	color: var(--text-color-primary);
+	margin-bottom: 3px;
+}
+.exercise_details.data-v-97bb78b8 {
+	font-size: 14px;
+	color: var(--text-color-secondary);
+}
+.detail_value.data-v-97bb78b8 {
+	color: var(--main-color);
+	font-weight: bold;
+}
+.exercise_actions.data-v-97bb78b8 {
+	display: flex;
+	gap: 1em;
+}
+.edit_btn.data-v-97bb78b8, .delete_btn.data-v-97bb78b8 {
+	font-size: 14px;
+	padding: 0.3em 0.8em;
+	border-radius: 15px;
+	line-height: 1.5;
+}
+.edit_btn.data-v-97bb78b8 {
+	background-color: #FFCC00;
+	color: white;
+}
+.delete_btn.data-v-97bb78b8 {
+	background-color: #F5296E;
+	color: white;
+}
+
+/* 模态框样式 */
+.modal.data-v-97bb78b8 {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 1000;
+}
+.modal_content.data-v-97bb78b8 {
+	width: 90%;
+	max-width: 400px;
+	background-color: white;
+	border-radius: 12px;
+	overflow: hidden;
+}
+.modal_header.data-v-97bb78b8 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px 20px;
+	border-bottom: 1px solid var(--border-color);
+}
+.modal_title.data-v-97bb78b8 {
+	font-size: 18px;
+	font-weight: bold;
+	color: var(--text-color-primary);
+}
+.close_btn.data-v-97bb78b8 {
+	font-size: 24px;
+	color: var(--text-color-secondary);
+}
+.modal_body.data-v-97bb78b8 {
+	padding: 20px;
+}
+.form_item.data-v-97bb78b8 {
+	margin-bottom: 15px;
+}
+.form_label.data-v-97bb78b8 {
+	display: block;
+	font-size: 14px;
+	color: var(--text-color-primary);
+	margin-bottom: 8px;
+}
+.picker_input.data-v-97bb78b8, input.data-v-97bb78b8 {
+	width: 100%;
+	height: 44px;
+	line-height: 44px;
+	padding: 0 12px;
+	border: 1px solid var(--border-color);
+	border-radius: 8px;
+	font-size: 14px;
+	box-sizing: border-box;
+}
+.modal_footer.data-v-97bb78b8 {
+	display: flex;
+	gap: 10px;
+	padding: 15px 20px;
+	border-top: 1px solid var(--border-color);
+}
+.cancel_btn.data-v-97bb78b8, .confirm_btn.data-v-97bb78b8 {
+	flex: 1;
+	height: 44px;
+	line-height: 44px;
+	border: none;
+	border-radius: 8px;
+	font-size: 16px;
+	text-align: center;
+}
+.cancel_btn.data-v-97bb78b8 {
+	background-color: #f5f5f5;
+	color: #666;
+}
+.confirm_btn.data-v-97bb78b8 {
+	background-color: var(--main-color);
+	color: white;
+}
